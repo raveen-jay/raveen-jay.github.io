@@ -1,0 +1,482 @@
+/* CSS FONT SETUP */
+
+@font-face {
+    font-family: EBGaramondHeavy-Regular;
+    src: url(/fonts/EBGaramond08-Regular.ttf);
+}
+
+@font-face {
+    font-family: EBGaramondHeavy-Italic;
+    src: url(/fonts/EBGaramond08-Italic.ttf);
+}
+
+@font-face {
+    font-family: EBGaramond-Regular;
+    src: url(/fonts/EBGaramond12-Regular.ttf);
+}
+
+@font-face {
+    font-family: EBGaramond-Italic;
+    src: url(/fonts/EBGaramond12-Italic.ttf);
+}
+
+
+/* CSS GENERAL SETUP */
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: "#EEF1F0";
+}
+
+
+/* CSS FOR TEXT AND HEADINGS */
+
+p {
+    font-size: 18px;
+    line-height: 140%;
+    font-family: EBGaramond-Regular;
+    padding-bottom: 10px;
+}
+
+h1 {
+    color: black;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: EBGaramondHeavy-Regular;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.underline {
+    text-decoration: #C4C4C4 solid 8px underline;
+    text-underline-position: under;
+}
+
+h2 {
+    color: black;
+    font-size: 35px;
+    font-weight: normal;
+    font-family: EBGaramondHeavy-Italic;
+    text-align: left;
+}
+
+h3 {
+    color: black;
+    font-size: 22px;
+    font-weight: 200;
+    font-family: EBGaramondHeavy-Italic;
+    line-height: 120%;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+h4 {
+    color: black;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: EBGaramond-Italic;
+    line-height: 120%;
+}
+
+h5 {
+    color: #777878;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: EBGaramondHeavy-Regular;
+    padding: 25px;
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+
+/* CSS FOR HERO IMAGE HEADER */
+
+#hero {
+    height: 540px;
+    overflow: hidden;
+    position: relative;
+}
+
+.layer {
+    background-position: middle center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 540px;
+    position: fixed;
+    z-index: -1;
+}
+
+#hero,
+.layer {
+    width: 100%;
+    min-height: 540px;
+}
+
+.layer-bg {
+    width: 100%;
+    background-image: url("/img/hero/hero-test-bg.png");
+}
+
+
+/* Quality needs to be improved massively for this part. */
+
+.layer-1 {
+    width: 100%;
+    background-image: url("/img/hero/hero-test-layer1\(2\).png");
+    background-position: center;
+}
+
+.layer-2 {
+    width: 100%;
+    background-image: url("/img/hero/hero-test-layer2\(2\).png");
+    background-position: center;
+}
+
+.layer-3 {
+    background-image: url("/img/hero/hero-test-layer3\(2\).png");
+    background-position: center;
+}
+
+
+/* CSS FOR EACH SECTION */
+
+#container {
+    background: #EEF1F0;
+}
+
+.text-section-1 {
+    color: black;
+    margin: 0 auto;
+    width: 45%;
+    padding: 50px;
+    padding-bottom: 95px;
+}
+
+.text-section-2 {
+    color: black;
+    margin: 0 auto;
+    width: 45%;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    margin-top: 125px;
+}
+
+.text-section-3 {
+    color: black;
+    margin: 0 auto;
+    width: 45%;
+    padding-top: 55px;
+    padding-bottom: 35px;
+    margin-top: -5px;
+}
+
+.text-section-4 {
+    color: black;
+    margin: 0 auto;
+    width: 45%;
+    padding: 50px;
+    padding-bottom: 10px;
+    margin-top: 25px;
+}
+
+.text-section-5 {
+    color: black;
+    margin: 0 auto;
+    width: 45%;
+    padding-top: 60px;
+    padding-bottom: 45px;
+}
+
+.text-section-6 {
+    color: black;
+    margin: 0 auto;
+    width: 45%;
+    padding: 55px;
+    padding-bottom: 25px;
+    margin-top: 0
+}
+
+.text-section-7 {
+    color: #EEF1F0;
+    background: url(/img/vis-images/section5-bg2.png);
+    margin: 0 auto;
+    color: white;
+}
+
+#tc7-text {
+    margin: 0 auto;
+    width: 45%;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.visualization1 {
+    height: 250px;
+    background: url(/img/vis-images/vis-bg2.png);
+}
+
+.vis1-img {
+    width: 520px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: -289px;
+}
+
+.vis1-bubbles {
+    width: 650px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: -325px;
+}
+
+.visualization2 {
+    height: 325px;
+    display: flex;
+    justify-content: center;
+    background: url(/img/vis-images/vis-bg2.png);
+}
+
+.vis2-tweet {
+    width: 350px;
+    height: 275px;
+    background-color: #F2F2F2;
+    border: 1px solid black;
+    margin-top: 25px;
+}
+
+#vis2-tweet-content {
+    font-family: EBGaramondHeavy-Regular;
+    width: 80%;
+    font-size: 16px;
+    line-height: 135%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#vis2-tweet-date {
+    font-family: EBGaramond-Regular;
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin-left: 13px;
+    margin-top: 17px;
+}
+
+.vis2-img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: -265px;
+}
+
+.visualization3 {
+    height: 575px;
+    background: url(/img/vis-images/vis-bg2.png);
+}
+
+.vis3-text {
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 10px
+}
+
+.vis3-graph {
+    width: 675px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: -505px;
+}
+
+.speechbubble-vis {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: -15px;
+}
+
+
+/* EVERYTHING CONCERNING THE INTERACTIVE VISUALIZATION */
+
+.interactive-visualization {
+    height: 1000px;
+    background: url(/img/vis-images/vis-bg2.png);
+}
+
+.interactivevis-text {
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 10px
+}
+
+#interactiv-vis {
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 120px;
+    margin-top: -150px;
+    padding: 75px;
+    mix-blend-mode: multiply;
+}
+
+.dropdown-vis {
+    width: 100%;
+    display: block;
+    margin-top: 380px;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+}
+
+select {
+    font-family: EBGaramond-Italic;
+    background: none;
+    font-size: 22px;
+    padding: 5px;
+    margin: 20px;
+    color: black;
+    border: 0;
+}
+
+input[type=button] {
+    background: none;
+    font-family: EBGaramond-Italic;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.interactive-vis-tweets {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.interactive-vis-tweets-trump {
+    width: 350px;
+    height: 275px;
+    background-color: #F2F2F2;
+    border: 1px solid black;
+}
+
+.interactive-vis-tweets-obama {
+    width: 350px;
+    height: 275px;
+    background-color: #F2F2F2;
+    border: 1px solid black;
+}
+
+
+/* CSS FOR HANDLING THE TWEET IMAGE FOR BOTH VIZ 2 AND INTERACTIVE VIZ */
+
+#tweet-handle {
+    font-family: EBGaramond-Italic;
+    font-size: 13px;
+    letter-spacing: 1.2px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#dropdown-tweets-trump {
+    font-family: EBGaramondHeavy-Regular;
+    width: 80%;
+    font-size: 18px;
+    line-height: 130%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#dropdown-tweets-obama {
+    font-family: EBGaramondHeavy-Regular;
+    width: 80%;
+    font-size: 18px;
+    line-height: 130%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#vis_wordunderline {
+    border-bottom: 1px solid black;
+}
+
+#vis_hashtagorat {
+    color: #3272f1;
+}
+
+#vis2_underline {
+    background-color: #DF1E19;
+    color: white;
+}
+
+#tweet-date-text {
+    display: flex;
+    justify-content: left;
+    position: absolute;
+}
+
+#tweet-date {
+    font-family: EBGaramondHeavy-Italic;
+    color: #797979;
+    font-size: 12px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#dropdown-tweets-obama-date {
+    font-family: EBGaramond-Regular;
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin-left: 13px;
+    margin-top: 17px;
+}
+
+#dropdown-tweets-trump-date {
+    font-family: EBGaramond-Regular;
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin-left: 13px;
+    margin-top: 17px;
+}
+
+
+/* --------------------------------------------------------------- */
+
+.new-viz {
+    width: 95%;
+    padding-top: 25px;
+}
+
+.visualization5 {
+    height: 525px;
+    background: url(/img/vis-images/vis-bg2.png);
+}
+
+.vis5-img {
+    width: 920px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: -485px;
+}
+
+.bottom-img {
+    width: 350px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: -1px;
+}

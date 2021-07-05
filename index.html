@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Trump Talks Weird</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+</head>
+
+<body>
+
+    <!-- This is the parallaxing header effect. The reference to source code can be found in the javascript file.  -->
+
+    <div id="hero">
+        <div class='layer-bg layer' data-depth='0.10' data-type='parallax'></div>
+        <div class='layer-1 layer' data-depth='0.20' data-type='parallax'></div>
+        <div class='layer-2 layer' data-depth='0.50' data-type='parallax'></div>
+        <div class='layer-3 layer' data-depth='0.70' data-type='parallax'></div>
+    </div>
+
+    <!-- The entire website was then broken down into chunks, which corresponded to the different sectiions of the visualization. This allowed for easier management during the CSS coding, but also made the development easy to follow.  -->
+
+    <div id="container">
+        <div class="text-section-1">
+            <p>For the longest time, I've been fascinated with the way Donald Trump presents himself to the world. In some eyes, he's viewed as the voice of "the people", the saviour of traditional American values. However, the majority view him as a controversial
+                and polarizing figure. One whose success is built upon his charisma and appeal to right-wing ideologies.</p>
+            <p>But how did he do it? How did he persuade the American population into supporting his distasteful beliefs? How did he develop such a strong and loyal following?</p>
+            <h3 style="text-align: center; padding-top: 10px;">How? Through the way he spoke. </h3>
+            <p>One of the many notable differences surrounding Trump's presidency is his Twitter presence. Like other prominent figures, Trump uses Twitter as a way to connect with his supporters and share his thoughts about truly anything. <br><br>Yet unlike
+                other presidential candidates, Trump is adamant he has full control over his account. Which makes sense given his overwhelming hatred for 'Fake News' and 'the Liberal Media'. This contrasts with Obama who has a team of people running his
+                account. Trump is also relentless in his approach to Twitter. Despite only lasting one term, Trump tweeted over double the amount Obama did, producing 16,000 tweets in four years as president.</p>
+        </div>
+        <div class="visualization1"></div>
+
+        <!-- Sometimes elements in visualization would be broken up into seperate images.
+        For this visualization i wanted an overlapping effect, and thus seperate images were needed.  -->
+
+        <img class="vis1-img" src="/img/vis-images/vis1.png">
+        <img class="vis1-bubbles" src="/img/vis-images/vis1-bubbles.png">
+        <div class="text-section-2">
+            <p>Trump has used Twitter as a tool to broadcast his rants and attack his opponents. He uses it as a way to express his grievances with the world, like how the average person would use the platform. This definitely played a factor in Trump amassing
+                such a devoted fanbase. Not only do they subscribe to Trump's messaging, but they also resonate with the outspoken manner in which he delivers it.</p>
+            <h1><span class="underline">Trump and Populism</span></h1>
+            <p>One of the many critiques of Trump's campaign has been his overt use of populism and populist language. <b>Populism refers to a political approach that strives to appeal to "ordinary people".</b> Populism preys on the notion that their problems
+                are disregarded by an established elite group. <br><br>Political figures who use populism are often charismatic, and present themselves as the "voice for the people". These qualities are clearly applicable to Trump's entire campaign. Some
+                examples of this would be his frequent use of collective pronouns: like 'our', 'we', 'us'; as well as phrases like 'the people' and 'Americans'.</p>
+        </div>
+        <div class="visualization2">
+            <div class="vis2-tweet">
+                <div id="tweet-handle">@DonaldTrump</div>
+                <div id="vis2-tweet-content">
+                    This is the most important election in the history of <span id="vis2_underline">our</span> Country. With your vote, <span id="vis2_underline">we</span> will continue to bring back <span id="vis2_underline">your</span> jobs, lower drug
+                    prices, support <span id="vis2_underline">our</span> police, protect the #2A, defend <span id="vis2_underline">our</span> borders, and ensure more products are proudly stamped with the phrase MADE IN THE USA!
+                </div>
+                <div id="tweet-date-text">
+                    <div id="tweet-date">DATE:</div>
+                    <div id="vis2-tweet-date">25.10.2020</div>
+                </div>
+            </div>
+        </div>
+        <div class="text-section-3">
+            <p>The downside to using this political strategy is that is very uncompromising. It disregards the existence of differing opinions from those of "the people". It antagonizes any form of opposition. And it presents overly simplistic answers to
+                complex problems or questions. Trump also uses populism as a way to ostracize his opponents. To draw distinctions between him and his supporters, with those who exist outside this group: Muslims, Mexicans and other minorities.
+                <br><br> Trump's strong bond between him and his supporters, is a result of his use of populism. People find it difficult to identify and relate with someone that's different from them. So, by using the language of populism, Trump forgoes
+                that barrier and makes his supporters feel understood and heard.
+            </p>
+            <h1><span class="underline">Simple, low-grade level language</span></h1>
+            <p>The most unique part about Donald Trump's language is its lack of complexity. A study conducted across all US presidents found that Trump talks at a fourth grader's level. The lowest of the last fifteen presidents. Comparingly, Barack Obama
+                communicates at a ninth grader's level, and George W Bush talks at a seventh grader's level.</p>
+        </div>
+        <div class="visualization3">
+            <div class="vis3-text">
+                <h2>Presidential Vocabulary <br> by Grade Level</h2>
+                <h4 style="margin-top: -15px; width: 50%;">Measured using the first 30,000 words <br>spoken in office, and measured using <br>the <a href="https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests" target="blank">Flesch-Kincaid</a> scale.</h4>
+            </div>
+        </div>
+        <img class="vis3-graph" src="/img/vis-images/vis3-all2.png">
+        <div class="text-section-4">
+            <p>Out of those same three presidents, Trump's speeches were the easiest to understand. Being suitable for someone with a high-school-level education. Whereas Bush and Obama's speeches were suitable for college-level audiences. Trump's choice
+                of using a low-grade-level language is intentional. The way he speaks mirrors everyday conversation and allows his messaging to reach a wider audience.
+            </p>
+            <h3 style="padding: 0; padding-bottom: 20px; padding-top: 0px;">This is reflected in Trump’s voter demographics for the 2016 election, with only <span style="color: #DF1E19;">29% of Trump’s votes</span> being from college graduates.</h3>
+            <p>This intentional use of low-level language is present in his Twitter account as well. Trump would frequently keep spelling mistakes and grammatical errors in his tweets. This not only birthed a couple of memes like <a href="https://www.theguardian.com/us-news/2017/may/31/what-is-covfefe-donald-trump-baffles-twitter-post">Covfefe'</a>',
+                but it also insinuates the notion that he managed his online presence himself. <br><br>Additionally, Trump's tweets lacked diversity, as he would often return to the same words and phrases like:
+            </p>
+
+            <img class="speechbubble-vis" src="/img/vis-images/speechbubble-vis.png">
+
+            <p>Surprisingly however, Trump scores highly in lexical sophistication. A study done by TextInspector found that his tweets would often contain complex words. Although, this measure is based on the average Twitter user who, unlike Trump, isn't
+                expected to use a lot of political jargon in their tweets. And thus, doesn’t necessarily indicate that Trump's tweets are sophisticated. </p>
+            <h3 style="padding: 0; padding-bottom: 25px; padding-top: 10px;">Despite all this, I still wanted to compare for myself, the difference in language used by Trump and Obama. To see which president used more complex words, and who picked from a larger collection of words.</h3>
+        </div>
+
+        <!-- This is where the code for the interactive visualization takes place.  -->
+
+        <div class="interactive-visualization">
+            <div class="interactivevis-text">
+                <h2>The Complexity of Words used <br> by Trump and Obama</h2>
+                <h4 style="margin-top: -10px; width: 70%;">Data sourced from Twitter, and doesn't include <a href="https://gist.github.com/sebleier/554280">stopwords</a>.</h4>
+            </div>
+
+            <!-- This is the div where the Plotly visualization exists. -->
+
+            <div id="interactiv-vis"></div>
+
+            <!-- This is the div for the entirety of the dropdown part of the interactive viz. -->
+
+            <div class="dropdown-vis">
+
+                <!-- This is the actual form/select options.  -->
+
+                <div class="dropdown">
+                    <form>
+                        <select name="dropdown-list" id="dropdown-list" accesskey="target">
+                            <option value="none" disabled selected>examples within tweets</option>
+                            <option value="president">president</option>
+                            <option value="great">great</option>
+                            <option value="all">all</option>
+                            <option value="people">people</option>
+                            <option value="thank">thank</option>
+                            <option value="news">news</option>
+                            <option value="country">country</option>
+                            <option value="big">big</option>
+                            <option value="get">get</option>
+                            <option value="democrats">democrats</option>
+                            <option value="new">new</option>
+                            <option value="would">would</option>
+                            <option value="time">time</option>
+                            <option value="today">today</option>
+                            <option value="america">america</option>
+                            <option value="many">many</option>
+                            <option value="make">make</option>
+                            <option value="never">never</option>
+                            <option value="vote">vote</option>
+                            <option value="election">election</option>
+                            <option value="because">because</option>
+                            <option value="china">china</option>
+                            <option value="nothing">nothing</option>
+                            <option value="house">house</option>
+                        </select>
+                        <input type="button" value="Select" onclick="optionClicked()" />
+                    </form>
+                </div>
+
+                <!-- And this is where the options set up in the javascript file get printed.
+                Depending on the information needing to be printed to the screen, they are sent to a particular div.  -->
+
+                <div class="interactive-vis-tweets">
+                    <div class="interactive-vis-tweets-trump">
+                        <div id="tweet-handle">@DonaldTrump</div>
+                        <div id="dropdown-tweets-trump"></div>
+                        <div id="tweet-date-text">
+                            <div id="tweet-date">DATE:</div>
+                            <div id="dropdown-tweets-trump-date"></div>
+                        </div>
+                    </div>
+                    <div class="interactive-vis-tweets-obama">
+                        <div id="tweet-handle">@BarackObama</div>
+                        <div id="dropdown-tweets-obama"></div>
+                        <div id="tweet-date-text">
+                            <div id="tweet-date">DATE:</div>
+                            <div id="dropdown-tweets-obama-date"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-section-5">
+            <h1 style="margin-top: -40px;"><span class="underline">Tools for emphasis
+            </span></h1>
+            <p>Another one of Donald Trumps' techniques revolves around his use of emphasis. From hyperbole to repetition, he uses all the tools available to him to draw attention to certain words.
+                <br><br>Hyperbole means exaggeration, which Trump uses to place emphasis on particular words. Trump's language often occurs in extremes, it's either 'terrible' or 'incredible'. This extremist language heightens the exaggeration in his
+                speech. Trump also uses intensifiers which are adverbs used to give force or emphasis. Some examples are: <span style="color: #DF1E19; font-weight: bold;">'really'</span>, <span style="color: #DF1E19; font-weight: bold;">'extremely'<span style="color: #DF1E19; font-weight: bold;"> and </span>'enormously'</span>.
+                Trump will also use capitalization in his tweets to again create emphasis. It's looked at as the written equivalent to shouting, thus it's suitable for Twitter, and is another great tool to command a users attention.
+                <br><br>However, his ultimate tool for emphasis is repetition. Trump uses repetition not only for emphasis but to also link ideas and to make a statement memorable. He also uses repetition to strengthen associations with things. For example,
+                the repeated use of “crooked” when referring to Hillary Clinton, creates a connection between the two. This can be seen in the repeated use of some of the following words:</p>
+            <img class="new-viz" src="/img/vis-images/newviz2.png">
+            <h1><span class="underline">Fragmented sentences and talking off-topic</span></h1>
+            <p>The penultimate feature of Trump's language we'll be talking about, is his use of fragmented sentences. As well as his constant asides and talking off-topic. This linguistic choice doesn't feature in his tweets but appears in his speeches.
+                <br><br>Fragmented sentences are natural in conversational dialogue, yet uncommon in formal speeches. Especially speeches that are expected to be planned, written and rehearsed. I question whether this linguistic style is intentional or
+                just the natural, disorganized way he speaks. If you compare speeches made before he was president, with speeches he made in the past two years, it appears this is the natural way he speaks.
+            </p>
+        </div>
+        <div class="visualization5"></div>
+        <img class="vis5-img" src="/img/vis-images/vis5-all2.png">
+        <div class="text-section-6">
+            <p>It's difficult to tell whether this is a deliberate choice or not. Especially difficult when his digressions are filled with absolute nonsense with no relevancy to the topic at hand. Thus, it's safe to assume that his natural tendency for
+                disjointed sentences is amplified further for formal settings. Surprisingly, there are some persuasive elements attributed to this style of speech. Like his use of simple language, it mirrors natural human conversation, aiding in his attempts
+                to relate with his audience. This style of speech also contrasts starkly with other presidents. Their formal dialogue is often very calculated, sophisticated and robotic for some. This deters certain people away, due to its unengaging
+                delivery, its complexity and its stark difference from natural conversation.</p>
+            <h1><span class="underline">Salesman-like quality</span></h1>
+            <p>The last and most intriguing language features of Donald Trump involve his use of sales talk. Throughout his tenure as president, Trump used advertising tactics to manipulate his audience. Whether it be the slogan's he used like 'Make America
+                Great Again', to the individual words he used.
+                <br><br>Three of Trump's most used phrases were stolen right out of a sales and marketing textbook - <span style="color: #DF1E19;font-weight: bold">“Believe me”</span>, <span style="color: #DF1E19; font-weight: bold;">“you know?”</span>                and <span style="color: #DF1E19; font-weight: bold">“Many people are saying”</span>.
+                <br><br>When Trump says "believe me", he is suggesting the idea to his audience that he knows what he's talking about, and that you should trust him. This principle known as 'justified belief' shapes the listener into believing the speaker
+                is an expert, even if they're not. Similarly, Trump's use of "Many people are saying", implies that he's had direct conversations about the subject he's talking about. This works better than stating the claim by itself, as it portrays
+                the claim as being more trustworthy. Lastly, Trump’s use of “you know?” helps build trust with the listener. It verbally acknowledges the listener, helps them feel a part of the conversation and educated on a subject.</p>
+        </div>
+        <img class="bottom-img" src="img/vis-images/bottomimg-trump.png">
+        <div class="text-section-7">
+            <div id="tc7-text">
+                <p>I'd like to take it back to the beginning where I said - Trump is considered one of the most polarizing and controversial presidents of the century. It's hard to deny this fact, but it’s important to acknowledge the amount of intentionality
+                    and strategy behind the creation of his image and brand. <br><br>Donald Trump was aware of his audience, and targeted his language and speech to cater to said audience. Using simple language, emphasis and a salesman-like quality, to
+                    persuade the majority of the United States into voting for him. These techniques aren't only used by him, but by people who coexist across the political compass. Used as well by celebrities and popular figures who exist outside the
+                    political sphere entirely. And now that he's officially been removed from office, we need to start interrogating the words used by people like him. And weaken the power those words have over us individually, and collectively as a people.</p>
+                <h5>Thanks for reading!</h5>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
